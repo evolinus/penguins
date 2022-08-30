@@ -1,5 +1,5 @@
 # penguins
-Scripts to replicate analyses done in Pirri et al. 222
+Scripts to replicate analyses done in Pirri et al. 2202
 
 
 Pipeline to obtain orthogroups using a Reciprocal Best Hit (RBH) approach, align them, clean the alignment and perform PAML tests
