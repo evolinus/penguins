@@ -8,7 +8,7 @@ lino.ometto@unipv.it
 All scripts, whether in perl (.pl) or bash (.sh), must be run within the folder where this _README_ is located. They should be run in the order given by the number preceding their name (e.g. 1-..., 2-..., etc).
 
 The pipeline has 'variables' (folder names, species names, BLAST parameters, etc) set for the analysis presented in the associated manuscript.
-* Be careful to change the 'variables' in the various scripts to suit your needs *
+* Be careful to change the 'variables' in the various scripts to suit your needs
 
 
 1) Put the .fasta files containing the CDS of the different species in the folder '00-all_cds_fasta'. 
