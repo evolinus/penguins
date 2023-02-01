@@ -193,7 +193,7 @@ while (defined(my $myalignment = readdir(DIR))) {
 			$list{"Bn.$myforeground"} 	   = [($foregroundtree, 2,      0,        1,       1,	"Branch neutral model (same selective pressure across the phylogeny)")];
 			$list{"Ba.$myforeground"} 	   = [($foregroundtree, 2,      0,        0,       1,	"Branch alternative model (foreground branch under different selective pressure than the rest of the phylogeny)")];
 			$list{"BSn.$myforeground"}     = [($foregroundtree, 2,      2,        1,       1,	"Branch-site neutral model (same selective pressure across sites and across the phylogeny)")];
-			$list{"BSa.$myforeground"}     = [($foregroundtree, 2,      2,        0,       1,	"Branch-site alternative model (some sites in the foreground branch are under different (positive) selective pressure than the rest of the phylogeny)")];
+			$list{"BSa.$myforeground"}     = [($foregroundtree, 2,      2,        0,       1.5,	"Branch-site alternative model (some sites in the foreground branch are under different (positive) selective pressure than the rest of the phylogeny)")];
 			$list{"CmC.$myforeground"} 	   = [($foregroundtree, 3,      2,        0,       1,	"Clade model C (clade has different selective pressure than the rest of the phylogeny)")];
 			#
 			###########################
